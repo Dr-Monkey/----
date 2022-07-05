@@ -40,4 +40,6 @@
   .card-pic-size{
     width: auto;
     height: 400px;
+    align-items: center;
+    justify-content: center;
   }
