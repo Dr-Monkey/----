@@ -1,0 +1,31 @@
+.logo {
+    width: 40px;
+  }
+
+  header {
+    height: 500px;
+    background: url(img/pets_logo.jpg) no-repeat center/cover;
+    width: auto;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  .photo {
+    float: left;
+    width: 40%;
+  }
+
+  .intro {
+    float: right;
+    width: 60%;
+  }
+  .card-img-top{
+    width: auto;
+    height: 300px;
+  }
