@@ -1,7 +1,7 @@
 navbar_head = '<!-- navbar結束 -->\
 <nav class="navbar navbar-expand-lg navbar-light bg-light">\
   <div class="container">\
-    <a class="navbar-brand d-flex align-items-center" href="https://phoenix-pet-communication.netlify.app/">\
+    <a class="navbar-brand d-flex align-items-center" href="service">\
       <img src="img/logo.png" alt="" class="logo" >\
       &emsp;Phoenix 寵物溝通\
     </a>\
