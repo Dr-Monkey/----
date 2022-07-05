@@ -13,8 +13,16 @@
 
 </head>
 
-<body onload="" >
-  <script src="script.js"></script>
+<body >
+  <!-- navbar 載入 -->
+  <script type="text/javascript" src="navbar_head.js"></script>
+  <script type="text/javascript" src="footer.js"></script>
+  <!-- JAVASCRIPT語法要小心，閉合很重要  </header>'; -->
+  <!-- 不是到document.write(script); 才閉合 -->
+  
+  <!-- 把javascript的讀取分開來寫，可以決定發動的時機 -->
+  <script>document.write(navbar_head);</script>
+
   <!-- Jumbotron 開始 -->
   <div class="p-5 mb-4 bg-light rounded-3">
     <div class="container-fluid py-5">
@@ -25,6 +33,7 @@
     </div>
   </div>
   <!-- Jumbotron 結束 -->
+  <script> document.write(footer);</script>
 </body>
 
 </html>

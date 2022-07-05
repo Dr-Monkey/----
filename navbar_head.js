@@ -1,4 +1,4 @@
-script= '<nav class="navbar navbar-expand-lg navbar-light bg-light">\
+navbar_head = '<nav class="navbar navbar-expand-lg navbar-light bg-light">\
   <div class="container">\
     <a class="navbar-brand d-flex align-items-center" href="#">\
       <img src="img/logo.png" alt="" class="logo">\
@@ -29,9 +29,4 @@ script= '<nav class="navbar navbar-expand-lg navbar-light bg-light">\
     </div>\
   </div>\
 </nav>\
-<!--navbar 結束-->\
-<!-- body 開始 -->\
-<header class="position-relative"></header>\
-<!-- body 結束 -->\
-document.write(script.js)';
-
+<header class="position-relative"></header>';
