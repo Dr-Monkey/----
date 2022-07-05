@@ -7,10 +7,12 @@
     background: url(img/pets_logo.jpg) no-repeat center/cover;
     max-width: 100%;
   }
-  working {
-    height: 500px;
-    background: url(img/working.jpg) no-repeat center/cover;
-    max-width: 100%;
+  .work {
+    width: 40%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .text-left {
