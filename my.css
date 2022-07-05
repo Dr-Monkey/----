@@ -7,6 +7,11 @@
     background: url(img/pets_logo.jpg) no-repeat center/cover;
     max-width: 100%;
   }
+  working {
+    height: 500px;
+    background: url(img/working.jpg) no-repeat center/cover;
+    max-width: 100%;
+  }
 
   .text-left {
     text-align: left;
@@ -28,4 +33,9 @@
   .card-img-top{
     width: auto;
     height: 300px;
+  }
+
+  .card-pic-size{
+    width: auto;
+    height: 400px;
   }

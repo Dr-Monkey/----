@@ -10,56 +10,67 @@
   <!--宣告 CSS-->
   <script src="js/bootstrap.bundle.js"></script>
   <!--宣告 JS-->
-
 </head>
 
 <body>
-  <!--navbar 開始-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="img/logo.png" alt="" class="logo">
-        &emsp;Phoenix 寵物溝通
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="Index.html">首頁</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="experience.html">個人經歷</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="service.html">服務項目</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="feedback.html">飼主回饋</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact_us.html">聯絡我們</a>
-          </li>
-        </ul>
+  <!-- navbar 載入 -->
+  <script type="text/javascript" src="navbar_head.js"></script>
+  <script type="text/javascript" src="footer.js"></script>
+  <!-- JAVASCRIPT語法要小心，閉合很重要  </header>'; -->
+  <!-- 不是到document.write(script); 才閉合 -->
+
+  <!-- 把javascript的讀取分開來寫，可以決定發動的時機 -->
+  <script>document.write(navbar_head);</script>
+
+  <div class="container">
+    <h1 class="py-5">個案分享</h1>
+    <!-- Jumbotron 開始 -->
+    <div class="card">
+      <div class="row g-0">
+        <div class="col-md-4"><img src="img/pets/pic1.jpg" alt="" class="card-pic-size"></div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h1 class="card-title">吉娃娃-錢錢</h1>
+            <p class="card-text">內文</p>
+            <p class="card-text"><small class="text-muted">灰色小文字</small></p>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
-  <!--navbar 結束-->
-
-  <header class="position-relative"></header><br><br><br>
-
-  <!-- Jumbotron 開始 -->
-
+    <br><br>
+    <div class="card">
+      <div class="row g-0">
+        <div class="col-md-4"><img src="img/pets/pic2.jpg" alt="" class="card-pic-size"></div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h1 class="card-title">吉娃娃-二狗</h1>
+            <p class="card-text">內文</p>
+            <p class="card-text"><small class="text-muted">灰色小文字</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="card">
+      <div class="row g-0">
+        <div class="col-md-4">圖片</div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">標題</h5>
+            <p class="card-text">內文</p>
+            <p class="card-text"><small class="text-muted">灰色小文字</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+  </div>
   <!-- Jumbotron 結束 -->
 
-  <!-- Footer -->
-  <footer class="py-5" style="background: #eee;">
-    <div class="text-center ">© 2022 Phoenix 寵物溝通公司 版權所有.</div>
-  </footer>
-
-
+  <script> document.write(footer);</script>
 </body>
+<div>
+
+</div>
 
 </html>
