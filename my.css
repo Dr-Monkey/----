@@ -5,7 +5,7 @@
   header {
     height: 500px;
     background: url(img/pets_logo.jpg) no-repeat center/cover;
-    width: auto;
+    max-width: 100%;
   }
 
   .text-left {
